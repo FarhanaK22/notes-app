@@ -32,7 +32,7 @@ const Addnote =(text="")=>
     <i class=" save fa-regular fa-floppy-disk"></i>
     <i class=" trash fa-solid fa-trash"></i>
 </div>
-<textarea> ${text}</textarea>
+<textarea>${text}</textarea>
     `
     note.querySelector(".trash").addEventListener("click",
     function(){
